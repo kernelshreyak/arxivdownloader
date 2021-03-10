@@ -1,5 +1,5 @@
 """
-    Simple python script to download
+    Simple python script to download Arxiv papers using either abstract URLs or PDF URLs directly
 
     Author: Shreyak Chakraborty (C) 2021
 
