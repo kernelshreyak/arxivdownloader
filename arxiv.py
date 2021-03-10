@@ -18,7 +18,7 @@ def strToFilename(text:str,fileformat:str):
         text = text.replace(".","_")
         text = text.replace(":","_")
 
-        filename = text + fileformat
+        filename = text + "." + fileformat
     except:
        pass
     finally:
@@ -31,7 +31,7 @@ except:
     exit()    
 
 # Parse Arxiv URL and get arxiv paper ID
-title = url.replace(".pdf","")
+url = url.replace(".pdf","")
 url = url.replace("https://arxiv.org/abs/","")
 url = url.replace("https://arxiv.org/pdf/","")
 arxiv_id = url
